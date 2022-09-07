@@ -1,4 +1,4 @@
-# ME 701 -- Homework 1 -- Your Name Here
+# ME 701 -- Homework 1 -- Aidan Boettcher
 
 ## Instructions
 
@@ -27,12 +27,15 @@ or Octave).
 
 ### Solution
 
-Write your solution here.  Note, in the past, we've used a full, graphical
-version of Linux.  With WSL, you probably don't have as direct a path for
-exploring software in the Software Manager.  However, use the power of
-Google (or AskJeeves) to explore what sorts of open-source software is out
-there for technical or other applications.
+Something I routinely do on a computer at both internships and school is use CAD software to design or look at parts. Most software such as CATIA, SolidWorks, or Creo are rather expensive to gain access to. In some quick research, I found a free open-source alternative called FreeCAD. This software offers many of the features of a typical CAD system such as FEA or CAM/CNC workbenches. Since the software is open source, it is available to all and users can aid in bug fixes and new feature addition.
 
+## Problem 2 -- Test
+
+## Statement 
+
+Something here.
+
+### Solution
 
 ## Problem 3 -- Your CPU
 
@@ -46,12 +49,7 @@ using `ls > directory_contents.txt` to dump the contents of a directory to a fil
 
 ### Solution
 
-To display CPU information, I used the following command:
-
-```bash
-ls -al # <--- that's not right, but it shows you how to include
-       #      code in Markdown!
-```
+Using the command “cat /proc/cpuinfo” in the command line, relevant CPU information was displayed. The command “cat” is shorthand for concatenate and allows us to view the contents of the specified file. My processor speed is 1.30 GHz and my CPU has 4 cores. 
 
 ## Problem 4 -- Resource Hogs
 
@@ -63,7 +61,7 @@ in your writeup.
 
 ### Solution
 
-
+Using the command “top” in the command line displays the different tasks managed by Linux. The command “top” is shorthand for table of processes and it shows real time data from the system. It displays a list of the tasks, along with relevant associated information such as percentage of CPU and memory usage. 
 
 ## Problem 5 -- `bash`
 
@@ -74,3 +72,5 @@ Where is `bash` located on your Linux system?  And what version of
 determine this information.
 
 ### Solution
+
+Using the command “which bash” in the command line I determined that bash is located at “/usr/bin/bash” in my Linux system. By using the command “bash –version” in the command line I learned that I am using version 5.0.16(1) of bash. 
